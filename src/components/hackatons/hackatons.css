@@ -1,0 +1,45 @@
+.hackatons-container {
+  width: 40%;
+}
+.hackaton-image {
+  width: 15rem;
+  border-radius: 2rem;
+  overflow: hidden;
+
+  margin: 0 auto 1rem;
+  border: 0.2rem solid var(--color-primary-variant);
+}
+.hackaton {
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  user-select: none;
+}
+.hackaton-review {
+  color: var(--color-light);
+  font-weight: 300;
+  display: block;
+  width: 80%;
+  margin: 0.8rem auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .hackatons-container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hackatons-container {
+    width: var(--container-width-sm);
+  }
+  .hackaton-review {
+    width: var(--container-width-sm);
+  }
+}
