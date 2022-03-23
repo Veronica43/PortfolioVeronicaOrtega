@@ -3,6 +3,8 @@ import Jump from "../assets/jump.jpeg";
 import Fem from "../assets/Femhack.png";
 import Mobile from "../assets/Mobile.jpeg";
 import MovieApp from "../assets/movieapp.png";
+import Weather from "../assets/weatherapp.png";
+import MultiStep from "../assets/Multistep.png";
 
 export const projects = [
   {
@@ -26,23 +28,23 @@ export const projects = [
     id: 1,
   },
   {
-    title: "To do App",
+    title: "Weather App",
     description:
       "To do App using ReactJs,where the user will be able to add, remove, edit, and mark complete/cross out the todo items.  .",
-    image: Funny,
+    image: Weather,
 
-    url: " https://notetodo-app.netlify.app",
-    code: "https://github.com/Veronica43/Googler-App.git",
+    url: " https://weather-app-orpin-chi.vercel.app/",
+    code: "https://github.com/Veronica43/WeatherApp",
     id: 3,
   },
   {
-    title: "Portfolio",
+    title: "Multi Step-Form",
     description:
       "Personal portfolio minimalistic, using ReactJs,React-Router-Dom,where you can see my projects and a little about me,also a functional contact form",
-    image: Funny,
+    image: MultiStep,
 
-    url: "https://veronicaortega-portfolio.vercel.app/",
-    code: "https://github.com/Veronica43/VeronicaOportfolio.git",
+    url: "https://hackaton-form.vercel.app/",
+    code: "https://github.com/Veronica43/Hackaton-Form",
     id: 2,
   },
 ];
@@ -64,6 +66,6 @@ export const hackatons = [
     img: Mobile,
     name: "Jump2 Digital",
     review:
-      " This was finalist to participate to the final on the Mobile World Congress in Barcelona,where my team and I get the second place!",
+      " Here I was finalist to participate in the final on the Mobile World Congress in Barcelona,where my team and I get the second place!",
   },
 ];

@@ -31,7 +31,10 @@
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-bottom: 1.2rem;
+
+  margin-top: 1rem;
+}
+small {
 }
 
 @media screen and (max-width: 1024px) {

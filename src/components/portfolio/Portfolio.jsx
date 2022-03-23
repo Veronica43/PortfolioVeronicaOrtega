@@ -16,6 +16,7 @@ const Portfolio = () => {
                 <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>
+              <small>{description}</small>
 
               <div className="portfolio-item-cta">
                 <a href={code} className="btn" target="_blank" rel="noreferrer">
