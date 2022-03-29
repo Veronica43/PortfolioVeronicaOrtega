@@ -5,6 +5,7 @@ import Mobile from "../assets/Mobile.jpeg";
 import MovieApp from "../assets/movieapp.png";
 import Weather from "../assets/weatherapp.png";
 import MultiStep from "../assets/Multistep.png";
+import Admin from "../assets/admin.png";
 
 export const projects = [
   {
@@ -46,6 +47,16 @@ export const projects = [
     url: "https://hackaton-form.vercel.app/",
     code: "https://github.com/Veronica43/Hackaton-Form",
     id: 2,
+  },
+  {
+    title: "Admin Dashboard",
+    description:
+      "Personal portfolio minimalistic, using ReactJs,React-Router-Dom,where you can see my projects and a little about me,also a functional contact form",
+    image: Admin,
+
+    url: "https://hackaton-form.vercel.app/",
+    code: "https://github.com/Veronica43/Hackaton-Form",
+    id: 4,
   },
 ];
 

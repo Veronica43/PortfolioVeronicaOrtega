@@ -2,7 +2,7 @@ import React from "react";
 import "./hackatons.css";
 import { hackatons } from "../data";
 
-import { Pagination, Navigation } from "swiper";
+import { Navigation } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
