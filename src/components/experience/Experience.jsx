@@ -9,7 +9,7 @@ const Experience = () => {
       <h2>My experience</h2>
       <div className="container experience-container">
         <div className="experience-frontend">
-          <h3>FrontEnd Development</h3>
+          <h3>Technical Skills</h3>
           <div className="experience-content">
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon" />
@@ -59,11 +59,6 @@ const Experience = () => {
                 <progress max="100" value="80"></progress>
               </div>
             </article>
-          </div>
-        </div>
-        <div className="experience-backend">
-          <h3>Others Skills</h3>
-          <div className="experience-content">
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon" />
               <div>
@@ -101,6 +96,72 @@ const Experience = () => {
               <div>
                 <h4>Figma</h4>
                 <progress max="100" value="50"></progress>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className="experience-backend">
+          <h3>Soft Skills and Languages</h3>
+          <div className="experience-content">
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                {" "}
+                <h4>Spanish</h4>
+                <progress max="100" value="100"></progress>
+              </div>
+            </article>
+
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                {" "}
+                <h4>Catalan</h4>
+                <progress max="100" value="100"></progress>
+              </div>
+            </article>
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                {" "}
+                <h4>English</h4>
+                <progress max="100" value="70"></progress>
+              </div>
+            </article>
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                {" "}
+                <h4>Empathy</h4>
+                <progress max="100" value="100"></progress>
+              </div>
+            </article>
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>Team Work</h4>
+                <progress max="100" value="100"></progress>
+              </div>
+            </article>
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>Problem-Solving</h4>
+                <progress max="100" value="90"></progress>
+              </div>
+            </article>
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>Adaptability</h4>
+                <progress max="100" value="100"></progress>
+              </div>
+            </article>
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>Willigness to learn</h4>
+                <progress max="100" value="100"></progress>
               </div>
             </article>
           </div>

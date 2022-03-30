@@ -34,6 +34,10 @@
 
   margin-top: 1rem;
 }
+p {
+  margin-top: 2rem;
+  color: rgb(183, 131, 187);
+}
 
 @media screen and (max-width: 1024px) {
   .portfolio-container {
