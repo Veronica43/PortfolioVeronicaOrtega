@@ -52,8 +52,8 @@ export const projects = [
     stack: "Built with Next.js, JavaScript, HTML, Styled Components",
     image: Admin,
 
-    url: "https://hackaton-form.vercel.app/",
-    code: "https://github.com/Veronica43/Hackaton-Form",
+    url: "https://mwc-hackaton-liart.vercel.app/graficas2",
+    code: "https://github.com/Veronica43/MWC-Hackaton",
     id: 4,
   },
   {
