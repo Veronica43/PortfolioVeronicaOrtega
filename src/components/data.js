@@ -77,13 +77,13 @@ export const hackatons = [
   },
   {
     img: Fem,
-    name: "Jump2 Digital",
+    name: "FemHack International",
     review:
       " This was amazing! where woman around the world join this amazing event in a metaverse scenario",
   },
   {
     img: Mobile,
-    name: "Jump2 Digital",
+    name: "Mobile World Congress",
     review:
       " Here I was finalist to participate in the final on the Mobile World Congress in Barcelona,where my team and I get the second place!",
   },

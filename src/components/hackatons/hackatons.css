@@ -8,6 +8,10 @@
 
   margin: 0 auto 1rem;
   border: 0.2rem solid var(--color-primary-variant);
+  transition: var(--transition);
+}
+.hackaton-image:hover {
+  transform: scale(1.2);
 }
 .hackaton {
   background: linear-gradient(

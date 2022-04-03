@@ -22,6 +22,10 @@
 .portfolio-item-image {
   border-radius: 0.5rem;
   overflow: hidden;
+  transition: var(--transition);
+}
+.portfolio-item-image:hover {
+  transform: scale(1.1);
 }
 .portfolio-item h3 {
   margin: 1.2rem 0 2rem;
