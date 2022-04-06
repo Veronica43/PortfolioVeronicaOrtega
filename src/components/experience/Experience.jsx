@@ -1,7 +1,10 @@
 import React from "react";
 import "./experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
-
+import { BsPatchCheckFill, BsFillBootstrapFill } from "react-icons/bs";
+import { DiReact, DiCss3, DiJavascript1, DiSass } from "react-icons/di";
+import { RiHtml5Line } from "react-icons/ri";
+import { SiJavascript } from "react-icons/si";
+import { Icon } from "@iconify/react";
 const Experience = () => {
   return (
     <section id="experience">
@@ -16,9 +19,10 @@ const Experience = () => {
               <div>
                 {" "}
                 <h4>HTML5</h4>
-                <progress max="100" value="80">
-                  70%
-                </progress>
+                <Icon
+                  icon="vscode-icons:file-type-html"
+                  style={{ fontSize: "3rem" }}
+                />
               </div>
             </article>
             <article className="experience-details">
@@ -26,7 +30,10 @@ const Experience = () => {
               <div>
                 {" "}
                 <h4>CSS3</h4>
-                <progress max="100" value="80"></progress>
+                <Icon
+                  icon="vscode-icons:file-type-css"
+                  style={{ fontSize: "3rem" }}
+                />
               </div>
             </article>
             <article className="experience-details">
@@ -34,7 +41,7 @@ const Experience = () => {
               <div>
                 {" "}
                 <h4>JAVASCRIPT</h4>
-                <progress max="100" value="60"></progress>
+                <Icon icon="logos:javascript" style={{ fontSize: "2rem" }} />
               </div>
             </article>
             <article className="experience-details">
@@ -42,21 +49,29 @@ const Experience = () => {
               <div>
                 {" "}
                 <h4>React JS</h4>
-                <progress max="100" value="60"></progress>
+                <Icon icon="logos:react" style={{ fontSize: "2rem" }} />
               </div>
             </article>
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon" />
               <div>
                 <h4>SASS</h4>
-                <progress max="100" value="80"></progress>
+                <Icon icon="logos:sass" style={{ fontSize: "2rem" }} />
               </div>
             </article>
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon" />
               <div>
                 <h4>Boostrap</h4>
-                <progress max="100" value="80"></progress>
+                <BsFillBootstrapFill color="blue" size="2rem" />
+              </div>
+            </article>
+
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>Material UI</h4>
+                <Icon icon="logos:material-ui" style={{ fontSize: "2rem" }} />
               </div>
             </article>
             <article className="experience-details">
@@ -64,7 +79,7 @@ const Experience = () => {
               <div>
                 {" "}
                 <h4>Node Js</h4>
-                <progress max="100" value="30"></progress>
+                <Icon icon="logos:nodejs" style={{ fontSize: "2rem" }} />
               </div>
             </article>
             <article className="experience-details">
@@ -72,7 +87,12 @@ const Experience = () => {
               <div>
                 {" "}
                 <h4>Express Js</h4>
-                <progress max="100" value="30"></progress>
+                <Icon
+                  icon="logos:express"
+                  style={{
+                    fontSize: "2rem",
+                  }}
+                />
               </div>
             </article>
             <article className="experience-details">
@@ -80,7 +100,10 @@ const Experience = () => {
               <div>
                 {" "}
                 <h4>Mongo DB</h4>
-                <progress max="100" value="30"></progress>
+                <Icon
+                  icon="vscode-icons:file-type-mongo"
+                  style={{ fontSize: "2rem" }}
+                />
               </div>
             </article>
             <article className="experience-details">
@@ -88,14 +111,14 @@ const Experience = () => {
               <div>
                 {" "}
                 <h4>GitHub</h4>
-                <progress max="100" value="80"></progress>
+                <Icon icon="logos:github-icon" style={{ fontSize: "2rem" }} />
               </div>
             </article>
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon" />
               <div>
                 <h4>Figma</h4>
-                <progress max="100" value="50"></progress>
+                <Icon icon="logos:figma" style={{ fontSize: "2rem" }} />
               </div>
             </article>
           </div>
@@ -107,8 +130,8 @@ const Experience = () => {
               <BsPatchCheckFill className="experience-details-icon" />
               <div>
                 {" "}
-                <h4>Spanish</h4>
-                <progress max="100" value="100"></progress>
+                <h4>Spanish(Native)</h4>
+                <Icon icon="openmoji:flag-spain" style={{ fontSize: "2rem" }} />
               </div>
             </article>
 
@@ -116,16 +139,22 @@ const Experience = () => {
               <BsPatchCheckFill className="experience-details-icon" />
               <div>
                 {" "}
-                <h4>Catalan</h4>
-                <progress max="100" value="100"></progress>
+                <h4>Catalan(Native)</h4>
+                <Icon
+                  icon="openmoji:catalonia-flag"
+                  style={{ fontSize: "2rem" }}
+                />
               </div>
             </article>
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon" />
               <div>
                 {" "}
-                <h4>English</h4>
-                <progress max="100" value="70"></progress>
+                <h4>English(Proficiency)</h4>
+                <Icon
+                  icon="openmoji:flag-united-kingdom"
+                  style={{ fontSize: "2rem" }}
+                />
               </div>
             </article>
             <article className="experience-details">
@@ -133,35 +162,44 @@ const Experience = () => {
               <div>
                 {" "}
                 <h4>Empathy</h4>
-                <progress max="100" value="100"></progress>
+                <Icon icon="ri:empathize-line" style={{ fontSize: "2rem" }} />
               </div>
             </article>
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon" />
               <div>
                 <h4>Team Work</h4>
-                <progress max="100" value="100"></progress>
+                <Icon icon="ps:people-team" style={{ fontSize: "2rem" }} />
               </div>
             </article>
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon" />
               <div>
                 <h4>Problem-Solving</h4>
-                <progress max="100" value="90"></progress>
+                <Icon
+                  icon="icon-park-outline:thinking-problem"
+                  style={{ fontSize: "2rem" }}
+                />
               </div>
             </article>
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon" />
               <div>
                 <h4>Adaptability</h4>
-                <progress max="100" value="100"></progress>
+                <Icon
+                  icon="ic:outline-published-with-changes"
+                  style={{ fontSize: "2rem" }}
+                />
               </div>
             </article>
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon" />
               <div>
                 <h4>Willigness to learn</h4>
-                <progress max="100" value="100"></progress>
+                <Icon
+                  icon="eos-icons:machine-learning-outlined"
+                  style={{ fontSize: "2rem" }}
+                />
               </div>
             </article>
           </div>
