@@ -2,6 +2,7 @@ import Funny from "../assets/funnyGifs.png";
 import Jump from "../assets/jump.jpeg";
 import Fem from "../assets/Femhack.png";
 import Mobile from "../assets/Mobile.jpeg";
+import Store from "../assets/Store.png";
 
 import Weather from "../assets/weatherapp.png";
 import MultiStep from "../assets/Multistep.png";
@@ -9,6 +10,17 @@ import Admin from "../assets/admin.png";
 import Portfolio from "../assets/portfolio.png";
 
 export const projects = [
+  {
+    title: "Full Stack Ecommerce ",
+    description:
+      " Full Stack Ecommerce application with the ability to add and edit products and all advanced cart functionalities",
+    image: Store,
+    stack: "Built with React.js, Next.js, Sanity, Stripe",
+
+    url: "https://springsteen-store.netlify.app",
+    code: "https://github.com/Veronica43/ecommerce-stripe",
+    id: 0,
+  },
   {
     title: "GifExpert App",
     description:
@@ -18,7 +30,7 @@ export const projects = [
 
     url: "https://veronica43.github.io/react-gifexpert-App/",
     code: "https://github.com/Veronica43/react-gifexpert-App.git",
-    id: 0,
+    id: 1,
   },
 
   {
